@@ -1,0 +1,21 @@
+{
+    "name": "mromnia/laravel-optimistic-lock",
+    "description": "Optimistic locking for Laravel 5.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mromnia",
+            "email": "mr.omnia.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "5.0.*",
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mromnia\\OptimisticLock\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
